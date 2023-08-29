@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days Since Incidents</title>
+    <meta name="description" content="A web that tells you about recent catastrophic incidents around the world.">
+    <!-- facebook -->
+    <meta property="og:url" content="https://notfenixio.github.io/incidents/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Days Since Incidents">
+    <meta property="og:description" content="A web that tells you about recent catastrophic incidents around the world.">
+    <meta property="og:image" content="https://globalnews.ca/wp-content/uploads/2020/01/cgpr101-111_2020_172738.jpg?quality=100">
+    <!-- twitter/𝕏 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="notfenixio.github.io">
+    <meta property="twitter:url" content="https://notfenixio.github.io/incidents/">
+    <meta name="twitter:title" content="Days Since Incidents">
+    <meta name="twitter:description" content="A web that tells you about recent catastrophic incidents around the world.">
+    <meta name="twitter:image" content="https://globalnews.ca/wp-content/uploads/2020/01/cgpr101-111_2020_172738.jpg?quality=100">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Days Since Incidents</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="text-center">
-        <label for="languageSwitch">Select Language:</label>
-        <select id="languageSwitch" onchange="changeLanguage()">
-            <option value="en">English</option>
-            <option value="es">Español</option>
-        </select>
+      <label for="languageSwitch">Select Language:</label>
+      <select id="languageSwitch" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
     </div>
     <div id="hourglass" class="hourglass" style="display: none;"></div>
-    <div id="incidentList" class="max-w-3xl mx-auto mt-8">
-    </div>
+    <div id="incidentList" class="max-w-3xl mx-auto mt-8"></div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
