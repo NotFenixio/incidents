@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Days Since Incidents</title>
+</head>
+<body>
+    <div class="text-center">
+        <label for="languageSwitch">Select Language:</label>
+        <select id="languageSwitch" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+        </select>
+    </div>
+    <div id="hourglass" class="hourglass" style="display: none;"></div>
+    <div id="incidentList" class="max-w-3xl mx-auto mt-8">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
