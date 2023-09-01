@@ -75,10 +75,6 @@ function changeLanguage() {
 
                     const incidentElement = document.createElement("div");
                     incidentElement.classList.add(
-                        "bg-gradient-to-r",
-                        "from-purple-400",
-                        "via-pink-500",
-                        "to-red-500",
                         "text-white",
                         "p-6",
                         "mb-6",
