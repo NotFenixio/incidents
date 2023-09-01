@@ -77,6 +77,7 @@ function changeLanguage() {
                     incidentElement.classList.add(
                         "text-white",
                         "p-6",
+                        "bg",
                         "mb-6",
                         "rounded-lg",
                         "shadow-lg",
